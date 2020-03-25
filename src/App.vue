@@ -1,5 +1,5 @@
 <template>
-  <div>
+<!--  <div>-->
     <div slot="body">
       <div id="topwrap" style="height:88px;">
         <div style="position:relative;height:50px;width:100%;background-color:#b48664;border-bottom:3px solid #ce9972;">
@@ -14,7 +14,7 @@
 <!--          <div id="logo" onclick="location.href='/hotel/?hotel=306'"></div>-->
           <div id="menu">
             <ul>
-              <li class="promo"><a href="/hotelonly"><i class="fab fa-product-hunt"></i> 호텔예약</a></li>
+              <li class="promo"><router-link valid-v-bind:to="/hotelonly">호텔예약</router-link></li>
               <li><a href="/hotel/mypage.php?hotel=306">예약확인</a></li>
               <li><a href="/hotel/board.php?hotel=306&amp;ts=qna">온라인문의</a></li>
               <li><a href="/hotel/board.php?hotel=306&amp;ts=qna_cop">기업/단체문의</a></li>
@@ -30,13 +30,11 @@
       <div id="app" class="app">
         <router-view> </router-view>
       </div>
-
     </div>
-  </div>
+<!--  </div>-->
 </template>
 
 <script>
-
 export default {
   name: 'App',
   methods: {

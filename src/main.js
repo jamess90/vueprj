@@ -5,12 +5,10 @@ import router from './router'
 import store from './store'
 import App from './App.vue'
 
-window.onload = function () {
-  var main = new Vue({
-    el: '#app',
-    router,
-    store,
-    // $,
-    render: h => h(App)
-  })
-}
+var main = new Vue({
+  el: '#app',
+  store,
+  // $,
+  render: h => h(App),
+  router
+})
