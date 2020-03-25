@@ -14,7 +14,7 @@
 <!--          <div id="logo" onclick="location.href='/hotel/?hotel=306'"></div>-->
           <div id="menu">
             <ul>
-              <li class="promo"><router-link valid-v-bind:to="/hotelonly">호텔예약</router-link></li>
+              <li class="promo"><router-link to="/hotelonly">호텔예약</router-link></li>
               <li><a href="/hotel/mypage.php?hotel=306">예약확인</a></li>
               <li><a href="/hotel/board.php?hotel=306&amp;ts=qna">온라인문의</a></li>
               <li><a href="/hotel/board.php?hotel=306&amp;ts=qna_cop">기업/단체문의</a></li>
