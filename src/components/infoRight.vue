@@ -101,7 +101,7 @@
 <!--                </a>-->
                 <span style='font-size:13px; font-weight:normal'>
                     <p>
-                      <router-link to="/hotelDetail/hotelNum/{{room.id}}"><span style='font-size:24px; '> {{room.employee_name}} 😂 </span></router-link><br>
+                      <a href="#" ><router-link v-on:click="fn_clickHotelNm(room.id)" to="#">호텔예약</router-link><span style='font-size:24px; '> {{room.employee_name}} 😂 </span></a><br>
                     <span class='font14 no-bold' style='background:#333333; color:#fff; padding:3px 10px; font-size:12px;;'>{{room.employee_name}}</span>
 <!--                    <span class='font14 no-bold' style='background:#999; color:#fff; padding:3px 10px; font-size:12px;display:none;'><i class='fas fa-user fa-lg skyblue'></i> 성인 6명</span>-->
                     </p>
@@ -214,7 +214,7 @@ export default {
     },
     fn_clickHotelNm (id) {
       this.$router.push({name: 'hotelNum', params: {'hotelNum': id}})
-      location.href = '/hotelDetail/hotelNum/' + id
+      location.to = '/hotelDetail/hotelNum/' + id
     }
   }
 }
