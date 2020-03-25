@@ -27,10 +27,11 @@
           <div class="clear"></div>
         </div>
       </div>
-<!--      <div id="app" class="app">-->
-<!--      </div>-->
+      <div id="app" class="app">
+        <router-view> </router-view>
+      </div>
+
     </div>
-    <router-view> </router-view>
   </div>
 </template>
 
