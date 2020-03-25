@@ -5,13 +5,13 @@
         <div style="position:relative;height:50px;width:100%;background-color:#b48664;border-bottom:3px solid #ce9972;">
           <div class="div_banner" style="position:relative;height:50px;width:700px;margin:0px auto;overflow:hidden;text-align:center;">
             <ul id="div_banner_list" style="margin:0px auto;padding:0px;width:8000px;">
-              <li><div class="div_banner_item"><img src="./assets/logo.png" alt="농협카드"> "인터컨티넨탈 다낭 선페닌슐라 리조트 " <span style="padding-left: 5px;">3월 할인</span></div></li>
+              <li><div class="div_banner_item">"인터컨티넨탈 다낭 선페닌슐라 리조트 " <span style="padding-left: 5px;">3월 할인</span></div></li>
             </ul>
           </div>
         </div>
         <div class="clear"></div>
         <div id="navgation">
-          <div id="logo" onclick="location.href='/hotel/?hotel=306'"></div>
+<!--          <div id="logo" onclick="location.href='/hotel/?hotel=306'"></div>-->
           <div id="menu">
             <ul>
               <li class="promo"><a href="/hotelonly"><i class="fab fa-product-hunt"></i> 호텔예약</a></li>
@@ -27,10 +27,10 @@
           <div class="clear"></div>
         </div>
       </div>
-      <div id="app" class="app">
-        <router-view> </router-view>
-      </div>
+<!--      <div id="app" class="app">-->
+<!--      </div>-->
     </div>
+<!--    <router-view> </router-view>-->
   </div>
 </template>
 

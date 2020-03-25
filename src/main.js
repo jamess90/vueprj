@@ -3,14 +3,14 @@
 import Vue from 'vue'
 import router from './router'
 import store from './store'
-import $ from 'jquery'
 import App from './App.vue'
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  store,
-  $,
-  render: h => h(App)
-})
+window.onload = function () {
+  var main = new Vue({
+    el: '#app',
+    router,
+    store,
+    // $,
+    render: h => h(App)
+  })
+}

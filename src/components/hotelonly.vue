@@ -13,7 +13,7 @@
 <!--      </head>-->
       <body>
       <div id="subvisual">
-        <div id="img" style="background:url('./src/assets/logo.png') center no-repeat;background-size:cover;">
+<!--        <div id="img" style="background:url('./src/assets/logo.png') center no-repeat;background-size:cover;">-->
           <div id="container2">
             <div id="lefttext">
               <div class="top">― ― InterContinental Danang Sun Peninsula Resort ― <!--<?=stripslashes($hotelname_e)?>--> ―</div>
@@ -22,7 +22,7 @@
             <div id="righttext">
             </div>
           </div>
-        </div>
+<!--        </div>-->
       </div>
       <div class="clear"></div>
       <!--  <?include "_inc/middle_menu.php";?>-->
