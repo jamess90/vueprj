@@ -15,13 +15,13 @@
           <div id="menu">
             <ul>
               <li class="promo"><router-link to="/hotelonly">호텔예약</router-link></li>
-              <li><a href="/hotel/mypage.php?hotel=306">예약확인</a></li>
-              <li><a href="/hotel/board.php?hotel=306&amp;ts=qna">온라인문의</a></li>
-              <li><a href="/hotel/board.php?hotel=306&amp;ts=qna_cop">기업/단체문의</a></li>
-              <!-- <li><a href="board.php?ts=faq&category=1&hotel=306">FAQ</a></li> -->
-              <li style="cursor:pointer" onclick="window.open('https://admin8.kcp.co.kr/html/popup/thismonth/html/kcp_pop_up.html','','toolbars=no,scrollbars=yes,width=600,height=700')"><i class="fas fa-credit-card"></i> 신용카드 무이자할부</li>
-              <li class="promo"><a href="board.php?hotel=306&amp;ts=event_list"><i class="fab fa-product-hunt"></i> 프로모션</a></li>
-              <li onclick="javascript:btnScroll.scrollControl.goTop();" id="morehotel" style="color:#fff; margin:0px 10px 0px 10px">다른호텔보기</li>
+<!--              <li><a href="/hotel/mypage.php?hotel=306">예약확인</a></li>-->
+<!--              <li><a href="/hotel/board.php?hotel=306&amp;ts=qna">온라인문의</a></li>-->
+<!--              <li><a href="/hotel/board.php?hotel=306&amp;ts=qna_cop">기업/단체문의</a></li>-->
+<!--              &lt;!&ndash; <li><a href="board.php?ts=faq&category=1&hotel=306">FAQ</a></li> &ndash;&gt;-->
+<!--              <li style="cursor:pointer" onclick="window.open('https://admin8.kcp.co.kr/html/popup/thismonth/html/kcp_pop_up.html','','toolbars=no,scrollbars=yes,width=600,height=700')"><i class="fas fa-credit-card"></i> 신용카드 무이자할부</li>-->
+<!--              <li class="promo"><a href="board.php?hotel=306&amp;ts=event_list"><i class="fab fa-product-hunt"></i> 프로모션</a></li>-->
+<!--              <li onclick="javascript:btnScroll.scrollControl.goTop();" id="morehotel" style="color:#fff; margin:0px 10px 0px 10px">다른호텔보기</li>-->
             </ul>
           </div>
           <div class="clear"></div>
