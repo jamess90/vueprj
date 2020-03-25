@@ -15,8 +15,11 @@
     "serve": "webpack-dev-server --mode development"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "jquery": "^3.4.1",
     "lodash": "^4.17.15",
     "vue-router": "^3.0.1",
+    "vuex": "^3.1.3",
     "webpack-simple": "^1.5.2"
   },
   "devDependencies": {
