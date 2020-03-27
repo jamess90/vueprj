@@ -60,13 +60,14 @@ import InfoLeft from './infoLeft'
 import InfoRight from './infoRight'
 import HotelFooter from './hotelFooter'
 import axios from 'axios'
-import $ from 'jquery'
+// import $ from 'jquery'
 
 Vue.prototype.$http = axios
 
 export default {
   name: 'HotelOnly',
-  components: {InfoLeft, InfoRight, HotelFooter, $, axios}
+  components: {InfoLeft, InfoRight, HotelFooter, axios}
+  // components: {InfoLeft, InfoRight, HotelFooter, $, axios}
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->

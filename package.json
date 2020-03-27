@@ -6,8 +6,11 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "prd": "webpack-dev-server --inline --progress --config build/webpack.prod.conf.js",
+    "base": "webpack-dev-server --inline --progress --config build/webpack.base.conf.js",
     "start": "webpack --watch",
-    "build": "webpack -d",
+    "build": "webpack -p",
+    "debug": "webpack -d",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -16,8 +19,10 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
+    "popper.js": "^1.16.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.1.3",
     "webpack-simple": "^1.5.2"

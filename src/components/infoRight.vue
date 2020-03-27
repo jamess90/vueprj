@@ -1,7 +1,7 @@
 <template>
   <div id='info_right'>
     <br><br>
-    <img src='/_image/info/titlebar.png' align='absmiddle' class='titlebar'><b class='font20'>날짜별 객실요금확인</b>
+    <!--<img src='/_image/info/titlebar.png' align='absmiddle' class='titlebar'>--><b class='font20'>날짜별 객실요금확인</b>
     <span style='font-size:14px; margin-left:10px'>스테이앤모어의 모든 요금은 별도의 <u style='color:#bd7a27'>카드수수료가 발생하지 않습니다</u></span><br><br>
     <!-- 달력 -->
     <div id='data-input-area-y'></div>
@@ -140,7 +140,7 @@
 <!--          <a href="#" class="page pcol2 _goPageTop _param(10)">10<i class="aline"></i></a>-->
 <!--          <a href="#" class="next pcol2 _goPageTop _param(11) aggregate_click_delegate" alt="11">다음<span class="blind">페이지로 이동</span><i class="icon"></i></a>-->
 <!--        </div>-->
-        <img src='/_image/info/titlebar.png' align='absmiddle' class='titlebar'><b class='font20'>취소수수료 안내</b><br>
+        <!--<img src='/_image/info/titlebar.png' align='absmiddle' class='titlebar'>--><b class='font20'>취소수수료 안내</b><br>
         <div id='calnotice'><b>등록된 취소수수료가 없습니다. 결제전 취소 수수료에 대하여 문의 바랍니다.</b></div>
         <br>
 

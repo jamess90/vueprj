@@ -6,7 +6,8 @@
         <tr>
           <td colspan='4' class='content_area' style='border-top:3px solid #dedede'>
             <a href='javascript:call_info("6935");'>
-              <div class='fl-l mr-10' style='background: url("http://staynmore.com/photo/intro/notice_bg.jpg");background-size: cover; background-position: center center;width: 260px; height: 160px;position: relative;'>
+<!--              <div class='fl-l mr-10' style='background: url("http://staynmore.com/photo/intro/notice_bg.jpg");background-size: cover; background-position: center center;width: 260px; height: 160px;position: relative;'>-->
+              <div class='fl-l mr-10' >
                 <div class='info-layer'>객실 정보</div>
               </div>
             </a>
