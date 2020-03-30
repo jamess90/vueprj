@@ -11,7 +11,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', component: Home },
+    { path: '/', component: mReserve },
     { path: '/hotelonly', component: HotelOnly },
     { path: '/mReserve', component: mReserve },
     { path: '/hotelDetail/hotelNum/:hotelNum', component: hotelDetail },
