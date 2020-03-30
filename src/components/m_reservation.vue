@@ -160,7 +160,6 @@
             <p>관광사업등록 : 제2017-000116호 </p>
             <p>제 100-000-2019 0398 7819호 (서울보증보험</p>
             <p>고객센터 : 1544-8241</p>
-
             <p>개인정보관리 : 안병열</p>
           </div>
           <span class="copyright">CopyRights(c)2015 Staynmore All Rights Reserved.</span>
